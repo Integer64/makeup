@@ -1,0 +1,18 @@
+.red-word, .yellow-word, .green-word {
+ padding: 3px;
+}
+
+.red-word {
+    color: #A61506;
+    background-color: #F7B4AD;
+}
+
+.yellow-word {
+    color: #8E8417;
+    background-color: #FCF38D;
+}
+
+.green-word {
+    color: #227F09;
+    background-color: #CEFFC1;
+}
