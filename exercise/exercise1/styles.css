@@ -1,0 +1,27 @@
+body{
+    margin: 10px;
+}
+.block {
+    height: 40px;
+    width: 66%;
+    color: #0036ff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.yellow-block {
+    background-color: #f6ff84;
+    margin-right: 34%;
+}
+
+.purple-block {
+    background-color: #d494db;
+    margin-top: 10px;
+    margin-left: 34%;
+}
