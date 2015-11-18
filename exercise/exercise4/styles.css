@@ -3,14 +3,16 @@
     display: inline-block;
     margin: 10px;
     padding: 10px;
+    letter-spacing: -.36em;
 }
 
 .yellow-block {
     background-color: #FEFA8F;
     display: inline-block;
     border: 1px solid black;
-    margin: 0 10px 0 -4px;
+    margin: 0 10px 0 0;
     padding: 10px;
+    letter-spacing: normal;
 }
 
 .yellow-block:first-child{
