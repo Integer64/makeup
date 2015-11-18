@@ -6,14 +6,13 @@ body {
 h1 {
     color: #2F3F77;
     margin: 10px;
-    clear: right;
+    font-weight: normal;
 }
 
 nav {
     margin: 0 10px;
     float: left;
-    min-width: 200px;
-    min-height: 1px;
+    width: 200px;
 }
 
 .nav-menu {
@@ -23,9 +22,12 @@ nav {
     margin: 0;
 }
 
+.nav-menu li {
+    margin-bottom: 0.5em;
+}
+
 article {
-    width: calc(100% - 230px);
-    float: left;
+    margin-left: 220px;
     margin-right: 10px;
 }
 
