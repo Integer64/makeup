@@ -12,6 +12,4 @@ body {
     font-size: 14px;
     text-align: left;
     max-height: 180px;
-    overflow: hidden;
-    text-overflow: clip;
 }
