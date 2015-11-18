@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 10px;
 }
@@ -10,18 +15,13 @@ body{
     font-weight: bold;
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-}
-
 .yellow-block {
     background-color: #f6ff84;
-    margin-right: 34%;
+    margin-right: auto;
 }
 
 .purple-block {
     background-color: #d494db;
     margin-top: 10px;
-    margin-left: 34%;
+    margin-left: auto;
 }
