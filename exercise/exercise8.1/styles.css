@@ -1,0 +1,25 @@
+.block:first-child{
+    padding-top: 0;
+}
+
+.block{
+    padding-right: 10px;
+    padding-left: 10px;
+    clear: left;
+    padding-top: 10px;
+}
+
+.remark{
+    font-size: 10px;
+    width: 100px;
+    float: left;
+    word-wrap: break-word;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.content {
+    padding-left: 110px;
+}
