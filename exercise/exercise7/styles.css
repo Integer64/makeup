@@ -1,0 +1,17 @@
+#searchText, #btnSearch {
+    font-size: 14px;
+    height: 30px;
+}
+#searchText {
+    width: 400px;
+    margin-right: 10px;
+    box-sizing:border-box;
+}
+
+#btnSearch{
+    width: auto;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: #CDE9F5;
+    border:solid 1px #000000;
+}
