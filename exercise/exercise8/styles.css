@@ -8,6 +8,7 @@
     width: 100px;
     float: left;
     clear: left;
+    word-wrap: break-word;
 }
 
 .text{
