@@ -1,0 +1,36 @@
+.grey-block {
+    background-color: #EFEFEF;
+    border: solid 1px #A3A3A3;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.yellow-block {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #A3A3A3;
+    background-color: #FAFB9D;
+    float: left;
+}
+
+.content {
+    font-size: 14px;
+    margin-left: 160px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+/**
+ * Только для IE 6/7
+ * Данное правило активирует свойство hasLayout для
+ * содержания плавающих элементов в этих браузерах.
+ */
+.cf {
+    *zoom: 1;
+}
