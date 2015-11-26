@@ -1,6 +1,7 @@
-.container{
-    padding-right: 10px;
-    padding-left: 10px;
+body {
+    margin: 0;
+    font-size: 14px;
+    padding: 10px 10px 10px 120px;
 }
 
 .remark{
@@ -9,12 +10,5 @@
     float: left;
     clear: left;
     word-wrap: break-word;
-}
-
-.text{
-    font-size: 14px;
-}
-
-.content {
-    padding-left: 110px;
+    margin-left: -110px;
 }
