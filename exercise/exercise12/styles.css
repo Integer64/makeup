@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
+
+
+@keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+html {
+    background:url(http://distinctionjewelry.com/info/wp-content/uploads/2013/01/blurred-background-10-2000x1250.jpg);
+    font: 1em/1.5em "Raleway";
+    font-weight: normal;
+}
+
+.tabs {
+    max-width: 90%;
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 75px auto;
+}
+
+.tabs input[type=radio] {
+    display: none;
+}
+
+.tabs label {
+    display: inline-block;
+    width: 20%;
+    color: #fff;
+    background-color: #525252;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    line-height: 3em;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.tabs label:hover{
+    background-color: #667876;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+}
+
+.tab-content {
+    border-top: 5px solid #B8B63E;
+    display: none;
+    width: 100%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #F7EEC6;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#tab1:checked + label,
+#tab2:checked + label,
+#tab3:checked + label,
+#tab4:checked + label {
+    background-color: #B8B63E;
+}
+
+#tab1:checked ~ #tab-content1,
+#tab2:checked ~ #tab-content2,
+#tab3:checked ~ #tab-content3,
+#tab4:checked ~ #tab-content4{
+    display: block;
+}
+
+.tab-content > h1,  .tab-content > p{
+    -webkit-animation: text-opacity 0.3s ease-in;
+    -moz-animation: text-opacity 0.3s ease-in;
+    -o-animation: text-opacity 0.3s ease-in;
+    animation: text-opacity 0.3s ease-in;
+}
+
+
+
+
