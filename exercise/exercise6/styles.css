@@ -31,6 +31,6 @@ article {
     margin-right: 10px;
 }
 
-.article-text {
+article > p:first-child {
     margin: 0;
 }
