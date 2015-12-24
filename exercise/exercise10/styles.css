@@ -7,48 +7,51 @@ p {
 }
 
 em[data-ref]{
-    border-bottom: solid #F0C000 1px;
+    border-bottom: solid #ffa23b 1px;
 }
 
 em::before{
-    font-size: 0.75em;
-    quotes: "[" "]";
     content: open-quote attr(data-ref) close-quote;
-    font-style: normal;
-    text-align: right;
-    vertical-align: -20px;
-    padding-top: 2px;
-    width: 100%;
     float: left;
-    margin-left: -101%;
+    font-size: 0.75em;
+    font-style: normal;
+    left: -90px;
+    line-height: 21px;
+    padding-top: 2px;
+    position: absolute;
+    quotes: "[" "]";
+    text-align: right;
+    width: 80px;
 }
 
 figure {
     margin: 0;
     position: relative;
     display: inline-block;
+    min-height: 180px;
 }
 
 figcaption {
-    font-weight: bold;
     font-size: 2em;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 0;
-    width: 100%;
-    padding: 5px 0 5px 10px;
-    box-sizing: border-box;
+    padding: 13px 0 5px 10px;
+    left: 0;
+    right: 0;
+    width: auto;
+    line-height: 25px;
 }
 
 .subtitle{
     display: block;
     font-weight: normal;
     font-size: 0.5em;
+    color: #D2C8C8;
 }
 
 img {
     display: block;
     width: 100%;
-    height: auto;
 }
