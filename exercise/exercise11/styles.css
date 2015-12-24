@@ -41,7 +41,7 @@ label:last-child {
     border-top-right-radius: 5px;
 }
 
-input:hover + span, input:checked:hover + span, input[type="checkbox"]:focus + span{
+input:hover + span, input:checked:hover + span{
     cursor: pointer;
     background-color: #e1e1e1;
 }
