@@ -1,18 +1,24 @@
+.container {
+    display: block;
+    margin-bottom: 15px;
+}
+
 label {
     font-size: 14px;
     display: inline-block;
     border: 1px solid #CCCCCC;
     margin-right: -1px;
-    -webkit-transition: background-color 0.15s linear;
-    -moz-transition: background-color 0.15s linear;
-    -o-transition: background-color 0.15s linear;
-    transition: background-color 0.15s linear;
+    position: relative;
 }
 
 span {
     display: inline-block;
     padding: 5px 15px;
     border: hidden 1px;
+    -webkit-transition: background-color 0.15s linear;
+    -moz-transition: background-color 0.15s linear;
+    -o-transition: background-color 0.15s linear;
+    transition: background-color 0.15s linear;
 }
 
 label:first-child > span {
@@ -35,23 +41,34 @@ label:last-child {
     border-top-right-radius: 5px;
 }
 
-label:hover {
+input:hover + span, input:checked:hover + span, input[type="checkbox"]:focus + span{
     cursor: pointer;
-    background-color: #E6E6E6;
+    background-color: #e1e1e1;
 }
 
-label:active {
+
+input:active + span, input:checked:active + span{
     box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    background-color: #c6c6c6;
 }
 
 
-input:not(checked) {
+input {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
     position: absolute;
     opacity: 0;
 }
 
 input:checked + span{
-    background-color: #E6E6E6;
+    background-color: #d5d5d5;
+
 }
 
 
