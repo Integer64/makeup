@@ -57,8 +57,6 @@ html {
 
 .tabs {
     max-width: 90%;
-    float: none;
-    list-style: none;
     padding: 0;
     margin: 75px auto;
 }
@@ -69,11 +67,9 @@ html {
 
 .tabs label {
     display: inline-block;
-    width: 20%;
+    padding: 0 40px;
     color: #fff;
     background-color: #525252;
-    font-weight: normal;
-    text-decoration: none;
     text-align: center;
     cursor: pointer;
     line-height: 3em;
@@ -93,7 +89,6 @@ html {
     border-top: 5px solid #B8B63E;
     display: none;
     width: 100%;
-    float: left;
     padding: 15px;
     box-sizing: border-box;
     background-color: #F7EEC6;
@@ -102,10 +97,7 @@ html {
     border-bottom-right-radius: 3px;
 }
 
-#tab1:checked + label,
-#tab2:checked + label,
-#tab3:checked + label,
-#tab4:checked + label {
+.tab:checked + label {
     background-color: #B8B63E;
 }
 
@@ -116,7 +108,7 @@ html {
     display: block;
 }
 
-.tab-content > h1,  .tab-content > p{
+.tab-content {
     -webkit-animation: text-opacity 0.3s ease-in;
     -moz-animation: text-opacity 0.3s ease-in;
     -o-animation: text-opacity 0.3s ease-in;
