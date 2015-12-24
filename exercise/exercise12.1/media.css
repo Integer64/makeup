@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .tabs {
+        margin: 0;
+        padding: 0;
+        max-width: none;
+    }
+    .tab-wrapper {
+        display: block;
+    }
+    .tab-content {
+        top: 192px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top: none;
+        border-top-right-radius: 0;
+    }
+    .tab-wrapper label {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+}
