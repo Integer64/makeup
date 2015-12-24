@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
+
+
+@keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+html {
+    background:url(http://distinctionjewelry.com/info/wp-content/uploads/2013/01/blurred-background-10-2000x1250.jpg);
+    font: 1em/1.5em "Raleway";
+    font-weight: normal;
+}
+
+.tabs {
+    max-width: 90%;
+    padding: 0;
+    margin: 75px auto;
+    position: relative;
+}
+
+.tabs-wrapper {
+    margin-bottom: 30px;
+}
+
+.tab-wrapper input[type=radio] {
+    display: none;
+}
+
+.tab-wrapper{
+    display: inline-block;
+}
+
+.tab-wrapper label {
+    display: block;
+    color: #fff;
+    background-color: #525252;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    line-height: 3em;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.tab-wrapper label:hover{
+    background-color: #667876;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+}
+
+.tab-content {
+    border-top: 5px solid #B8B63E;
+    padding: 10px;
+    background-color: #F7EEC6;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+}
+
+.tab:checked + label {
+    background-color: #B8B63E;
+}
+
+.tab:checked + label ~ .tab-content * {
+    -webkit-animation: text-opacity 0.3s ease-in;
+    -moz-animation: text-opacity 0.3s ease-in;
+    -o-animation: text-opacity 0.3s ease-in;
+    animation: text-opacity 0.3s ease-in;
+}
+
+.tab:checked + label {
+    background-color: #B8B63E;
+
+}
+.tab:checked + label ~ .tab-content {
+    z-index: 1;
+    opacity: 1;
+}
+
+/*-----clearfix-----*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
