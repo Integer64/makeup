@@ -2,7 +2,7 @@ body, html {
     font-family: "Times New Roman", sans-serif;
 }
 
-p {
+p.text{
     position: relative;
 }
 
@@ -12,12 +12,10 @@ em[data-ref]{
 
 em::before{
     content: open-quote attr(data-ref) close-quote;
-    float: left;
     font-size: 0.75em;
     font-style: normal;
     left: -90px;
-    line-height: 21px;
-    padding-top: 2px;
+    line-height: 17px;
     position: absolute;
     quotes: "[" "]";
     text-align: right;
@@ -28,7 +26,7 @@ figure {
     margin: 0;
     position: relative;
     display: inline-block;
-    min-height: 180px;
+    overflow: hidden;
 }
 
 figcaption {
@@ -51,7 +49,7 @@ figcaption {
     color: #D2C8C8;
 }
 
-img {
+figure > img {
     display: block;
     width: 100%;
 }
