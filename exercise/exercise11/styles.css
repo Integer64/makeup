@@ -56,7 +56,7 @@ label.button > input:focus + span{
     box-shadow:  0 0 10px rgba(0, 0, 255, 0.50);
 }
 
-label.button > input[type="radio"]:checked:focus + span{
+label.button > input[type="radio"]:checked:focus + span, label.button > input[type="radio"]:focus + span{
     box-shadow:  none;
 }
 
