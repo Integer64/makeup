@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
+
+
+@keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes text-opacity
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+html {
+    background:url(http://distinctionjewelry.com/info/wp-content/uploads/2013/01/blurred-background-10-2000x1250.jpg);
+    font: 1em/1.5em "Raleway";
+    font-weight: normal;
+}
+
+.tabs {
+    max-width: 90%;
+    padding: 0;
+    margin: 75px auto;
+}
+
+.tab {
+    display: inline-block;
+}
+
+
+.tab-header{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+}
+
+.button > .button-text{
+    display: inline-block;
+    padding: 0 40px;
+    color: #fff;
+    background-color: #525252;
+    text-align: center;
+    cursor: pointer;
+    line-height: 3em;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+.button > .button-text:hover{
+    background-color: #667876;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+}
+
+.tabs-content{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #F7EEC6;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 5px solid #B8B63E;
+}
+
+.tab-content {
+    display: none;
+
+}
+
+.tab-header:checked + .button > .button-text{
+    background-color: #B8B63E;
+}
+
+.tab-header[data-header="Tab 1"]:checked ~ .tabs-content > .tab-content[data-id="1"],
+.tab-header[data-header="Tab 2"]:checked ~ .tabs-content > .tab-content[data-id="2"],
+.tab-header[data-header="Tab 3"]:checked ~ .tabs-content > .tab-content[data-id="3"],
+.tab-header[data-header="Tab 4"]:checked ~ .tabs-content > .tab-content[data-id="4"],
+.tab-header[data-header="Tab 5"]:checked ~ .tabs-content > .tab-content[data-id="5"],
+.tab-header[data-header="Tab 6"]:checked ~ .tabs-content > .tab-content[data-id="6"],
+.tab-header[data-header="Tab 7"]:checked ~ .tabs-content > .tab-content[data-id="7"],
+.tab-header[data-header="Tab 8"]:checked ~ .tabs-content > .tab-content[data-id="8"],
+.tab-header[data-header="Tab 9"]:checked ~ .tabs-content > .tab-content[data-id="9"],
+.tab-header[data-header="Tab 10"]:checked ~ .tabs-content > .tab-content[data-id="10"]{
+    display: block;
+    -webkit-animation: text-opacity 0.3s ease-in;
+    -moz-animation: text-opacity 0.3s ease-in;
+    -o-animation: text-opacity 0.3s ease-in;
+    animation: text-opacity 0.3s ease-in;
+}
+
