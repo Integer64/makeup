@@ -50,7 +50,15 @@
 }
 
 html {
-    background:url(http://distinctionjewelry.com/info/wp-content/uploads/2013/01/blurred-background-10-2000x1250.jpg);
+    height: 100%;
+    width: 100%;
+    background: rgba(60,85,74,1);
+    background: -moz-linear-gradient(-45deg, rgba(60,85,74,1) 0%, rgba(212,155,106,1) 21%, rgba(255,231,172,1) 46%, rgba(214,132,68,1) 93%, rgba(171,102,50,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(60,85,74,1)), color-stop(21%, rgba(212,155,106,1)), color-stop(46%, rgba(255,231,172,1)), color-stop(93%, rgba(214,132,68,1)), color-stop(100%, rgba(171,102,50,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(60,85,74,1) 0%, rgba(212,155,106,1) 21%, rgba(255,231,172,1) 46%, rgba(214,132,68,1) 93%, rgba(171,102,50,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(60,85,74,1) 0%, rgba(212,155,106,1) 21%, rgba(255,231,172,1) 46%, rgba(214,132,68,1) 93%, rgba(171,102,50,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(60,85,74,1) 0%, rgba(212,155,106,1) 21%, rgba(255,231,172,1) 46%, rgba(214,132,68,1) 93%, rgba(171,102,50,1) 100%);
+    background: linear-gradient(135deg, rgba(60,85,74,1) 0%, rgba(212,155,106,1) 21%, rgba(255,231,172,1) 46%, rgba(214,132,68,1) 93%, rgba(171,102,50,1) 100%);
     font: 1em/1.5em "Raleway";
     font-weight: normal;
 }
