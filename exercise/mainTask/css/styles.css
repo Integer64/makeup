@@ -310,6 +310,7 @@ header {
 
 
 .tab-content > img {
+    border: none;
     margin: 0;
     padding: 0;
     display: block;
