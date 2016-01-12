@@ -1,0 +1,9 @@
+.portfolio > .container > .tabs > .tabs-content > .tab-content {
+    width: 270px;
+    height: 220px;
+}
+
+.service > .container > .service-block {
+    zoom: 1;
+    *display: inline;
+}

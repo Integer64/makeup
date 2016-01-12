@@ -1,0 +1,5 @@
+body > header, body > .slider, body > .service, body > .portfolio, footer, body > .copyright {
+    margin: 0;
+}
+
+
