@@ -19,3 +19,7 @@ body > header > .header-wrap.container > .menu  .item-menu{
 body > .portfolio > .container .portfolio-header {
     margin-top: 20px;
 }
+
+.address:before, .phone:before {
+    background-repeat: no-repeat;
+}
