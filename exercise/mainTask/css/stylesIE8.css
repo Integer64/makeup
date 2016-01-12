@@ -1,4 +1,4 @@
-header {
-    margin: 0;
-    padding: 0;
+header, .slider, .service, .portfolio, .footer, .copyright {
+    margin-top: 0;
 }
+
