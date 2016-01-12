@@ -9,14 +9,10 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
 
 .service > .container > .service-block {
     zoom: 1;
-    *display: inline;
-}
-
-.service {
-    margin-bottom: 10px;
+    display: inline;
 }
 
 header > .container > .menu > .menu-item {
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
