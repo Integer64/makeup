@@ -7,11 +7,6 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
     height: 220px;
 }
 
-.service > .container > .service-block {
-    zoom: 1;
-    display: inline;
-}
-
 header > .container > .menu > .menu-item {
     zoom: 1;
     display: inline;
