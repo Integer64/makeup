@@ -20,7 +20,20 @@ body > .portfolio > .container .portfolio-header {
     margin-top: 20px;
 }
 
-.address:before, .phone:before {
-    display: block;
-    background-repeat: no-repeat;
+.address:before {
+    content: "";
+    width: 10px;
+    height: 13px;
+    text-decoration: none;
+    background: url("../img/sprite-loc-phone.png") no-repeat -3px 1px;
+    margin-right: 2px;
+}
+
+.phone:before {
+    content: "";
+    width: 10px;
+    height: 13px;
+    text-decoration: none;
+    background: url("../img/sprite-loc-phone.png") no-repeat -17px 2px;
+    margin-right: 5px;
 }
