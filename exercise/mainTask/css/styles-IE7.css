@@ -11,3 +11,7 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
     zoom: 1;
     *display: inline;
 }
+body > header > .header-wrap.container > .menu {
+    zoom: 1;
+    display: inline;
+}
