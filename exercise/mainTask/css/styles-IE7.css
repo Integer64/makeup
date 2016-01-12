@@ -24,7 +24,6 @@ body > .portfolio > .container .portfolio-header {
     content: "";
     width: 10px;
     height: 13px;
-    text-decoration: none;
     background: url("../img/sprite-loc-phone.png") no-repeat -3px 1px;
     margin-right: 2px;
 }
@@ -33,7 +32,6 @@ body > .portfolio > .container .portfolio-header {
     content: "";
     width: 10px;
     height: 13px;
-    text-decoration: none;
     background: url("../img/sprite-loc-phone.png") no-repeat -17px 2px;
     margin-right: 5px;
 }
