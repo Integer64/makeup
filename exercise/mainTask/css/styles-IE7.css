@@ -21,5 +21,6 @@ body > .portfolio > .container .portfolio-header {
 }
 
 .address:before, .phone:before {
+    display: block;
     background-repeat: no-repeat;
 }
