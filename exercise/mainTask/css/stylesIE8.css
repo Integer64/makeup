@@ -1,4 +1,4 @@
 body > header, body > .slider, body > .service, body > .portfolio, body > .footer, body > .copyright {
-    margin-top: 0;
+    margin: 0;
 }
 
