@@ -12,6 +12,10 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
     *display: inline;
 }
 
+.service {
+    margin-bottom: 10px;
+}
+
 header > .container > .menu > .menu-item {
     zoom: 1;
     *display: inline;
