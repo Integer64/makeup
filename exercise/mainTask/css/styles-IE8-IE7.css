@@ -2,3 +2,7 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
     margin: 0;
 }
 
+.portfolio > .container > .tabs > .tabs-content > .tab-content {
+    width: 270px;
+    height: 220px;
+}
