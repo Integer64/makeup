@@ -15,3 +15,7 @@ body > header > .header-wrap.container > .menu  .item-menu{
     zoom: 1;
     display: inline;
 }
+
+body > .portfolio > .container .portfolio-header {
+    margin-top: 20px;
+}
