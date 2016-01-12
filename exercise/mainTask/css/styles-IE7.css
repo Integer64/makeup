@@ -20,7 +20,7 @@ body > .portfolio > .container .portfolio-header {
     margin-top: 20px;
 }
 
-.address:before {
+.contacts .address:before {
     content: "";
     width: 10px;
     height: 13px;
@@ -29,7 +29,7 @@ body > .portfolio > .container .portfolio-header {
     margin-right: 2px;
 }
 
-.phone:before {
+.contacts .phone:before {
     content: "";
     width: 10px;
     height: 13px;
