@@ -6,3 +6,8 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
     width: 270px;
     height: 220px;
 }
+
+.service > .container > .service-block {
+    zoom: 1;
+    *display: inline;
+}
