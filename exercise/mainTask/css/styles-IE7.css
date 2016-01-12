@@ -21,10 +21,13 @@ body > .portfolio > .container .portfolio-header {
 }
 
 .contacts .address:before {
-    background: url("../img/sprite-loc-phone.png") no-repeat -3px 1px;
+    background: url("../img/sprite-loc-phone.png");
+    background-repeat: no-repeat;
+    background-position: -3px 1px;
 }
 
 .contacts .phone:before {
-    content: "";
-    background: url("../img/sprite-loc-phone.png") no-repeat -17px 2px;
+    background: url("../img/sprite-loc-phone.png");
+    background-repeat: no-repeat;
+    background-position: -17px 2px;
 }
