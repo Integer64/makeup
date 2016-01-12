@@ -19,15 +19,3 @@ body > header > .header-wrap.container > .menu  .item-menu{
 body > .portfolio > .container .portfolio-header {
     margin-top: 20px;
 }
-
-.contacts .address:before {
-    background: url("../img/sprite-loc-phone.png");
-    background-repeat: no-repeat;
-    background-position: -3px 1px;
-}
-
-.contacts .phone:before {
-    background: url("../img/sprite-loc-phone.png");
-    background-repeat: no-repeat;
-    background-position: -17px 2px;
-}
