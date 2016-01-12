@@ -9,7 +9,7 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
 
 .service > .container > .service-block {
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 body > header > .header-wrap.container > .menu {
     zoom: 1;
