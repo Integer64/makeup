@@ -12,7 +12,3 @@ body > header, body > .slider, body > .service, body > .portfolio, footer, body 
     *display: inline;
 }
 
-.menu-item {
-    zoom: 1;
-    *display: inline;
-}
