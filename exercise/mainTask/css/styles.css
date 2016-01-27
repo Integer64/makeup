@@ -53,6 +53,9 @@
 html,body {
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 header {
@@ -105,7 +108,8 @@ header {
 }
 
 .menu > .item-menu {
-    font-family: "Lato-Black", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     font-size: 13px;
     display: inline-block;
     text-transform: uppercase;
@@ -124,7 +128,8 @@ header {
 .slider {
     background-color: #2a2a2a;
     padding: 45px 0 60px;
-    font-family: "Lato-Light", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
     color: #d9d9d9;
 }
 
@@ -135,7 +140,8 @@ header {
 }
 
 .slider-header > span {
-    font-family: "Lato-Black", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
 }
 
 .slider-text {
@@ -145,11 +151,15 @@ header {
 }
 
 .slider-text > span {
-    font-family: "Lato-LightItalic", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .amp {
-    font-family: "Lato-Light", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .buttons {
@@ -158,7 +168,8 @@ header {
     display: inline-block;
     line-height: 14px;
     font-size: 14px;
-    font-family: "Lato-Black", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
     background-color: #ff6760;
@@ -176,6 +187,7 @@ header {
 
 .service {
     background-color: #f8f8f8;
+    padding-bottom: 85px;
 }
 
 .service-block {
@@ -219,35 +231,37 @@ header {
 }
 
 .service-block-header {
-    font-family: "Lato-Black", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     font-size: 18px;
     margin-bottom: 8px;
 
 }
 
 .service-block-desc {
-    font-family: "Lato-Regular", sans-serif;
-    font-size: 14px;
     line-height: 24px;
     margin-top: 0;
 }
 
 .portfolio {
+    padding-top: 30px;
     background-color: #ffffff;
 }
 
 .portfolio-header {
-    font-family: "Lato-Black", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     font-size: 30px;
     color: #616161;
     margin-bottom: 10px;
 }
 
 .portfolio-desc {
-    font-family: "Lato-Light", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 53px;
 }
 
 
@@ -270,19 +284,20 @@ header {
 }
 
 .button {
-    margin: 0 5px 0 0;
+    margin: 0 7px 0 0;
 }
 
 .button > .button-text{
     display: inline-block;
-    padding: 13px 19px;
+    padding: 13px 20px;
     color: #fff;
     background-color: #ff6760;
     text-align: center;
     cursor: pointer;
     line-height: 12px;
     border-radius: 5px;
-    font-family: "Lato-Black", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -364,24 +379,25 @@ header {
 
 footer {
     background-color: #313131;
-    padding: 61px 0;
+    padding: 52px 0;
 }
 
 .footer-header {
-    font-family: "Lato-Black", sans-serif;
+    margin-top: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
     font-size: 30px;
     color: #e0e0e0;
 }
 
 .footer-desc {
-    font-family: "Lato-Light", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
     font-size: 20px;
     color: #bebebe;
 }
 
 .contacts {
-    font-family: "Lato-Regular", sans-serif;
-    font-size: 14px;
     color: #bebebe;
 }
 
@@ -453,7 +469,5 @@ footer {
 .copyright-desc {
     margin: 0;
     padding: 34px 0;
-    font-family: "Lato-Regular", sans-serif;
-    font-size: 14px;
     color: #bebebe;
 }
