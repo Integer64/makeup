@@ -334,11 +334,20 @@ header {
 
 
 .tab-content{
-    opacity: .8;
+    -webkit-filter: grayscale(60%);
+    -moz-filter: grayscale(60%);
+    -ms-filter: grayscale(60%);
+    -o-filter: grayscale(60%);
+    filter: grayscale(60%);
+    filter: gray;
 }
 
 .tab-content:hover {
-    opacity: 1;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .tab-header:checked + .button > .button-text{
