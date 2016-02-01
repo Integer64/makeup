@@ -345,7 +345,7 @@ header {
     background-color: #595959;
 }
 
-.tab-header[data-tab="All"]:checked ~ .tabs-content  .tab-content[data-all="All"]{
+.tab-header[data-tab="All"]:checked ~ .tabs-content  .tab-content[data-id~="All"]{
     display: inline-block;
     -webkit-animation: text-opacity 0.3s ease-in;
     -moz-animation: text-opacity 0.3s ease-in;
@@ -353,7 +353,7 @@ header {
     animation: text-opacity 0.3s ease-in;
 }
 
-.tab-header[data-tab="Graphic"]:checked ~ .tabs-content  .tab-content[data-id="Graphic"]{
+.tab-header[data-tab="Graphic"]:checked ~ .tabs-content  .tab-content[data-id~="Graphic"]{
     display: inline-block;
     -webkit-animation: text-opacity 0.3s ease-in;
     -moz-animation: text-opacity 0.3s ease-in;
@@ -361,7 +361,7 @@ header {
     animation: text-opacity 0.3s ease-in;
 }
 
-.tab-header[data-tab="Illustration"]:checked ~ .tabs-content  .tab-content[data-id="Illustration"]{
+.tab-header[data-tab="Illustration"]:checked ~ .tabs-content  .tab-content[data-id~="Illustration"]{
     display: inline-block;
     -webkit-animation: text-opacity 0.3s ease-in;
     -moz-animation: text-opacity 0.3s ease-in;
@@ -369,7 +369,7 @@ header {
     animation: text-opacity 0.3s ease-in;
 }
 
-.tab-header[data-tab="Motion"]:checked ~ .tabs-content  .tab-content[data-id="Motion"]{
+.tab-header[data-tab="Motion"]:checked ~ .tabs-content  .tab-content[data-id~="Motion"]{
     display: inline-block;
     -webkit-animation: text-opacity 0.3s ease-in;
     -moz-animation: text-opacity 0.3s ease-in;
