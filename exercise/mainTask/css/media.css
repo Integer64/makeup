@@ -1,0 +1,109 @@
+@media screen and (max-width: 750px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-wrap {
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .menu {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .menu > .item-menu {
+        padding-top: 20px;
+    }
+
+    .slider {
+        padding: 15px 0 20px;
+    }
+
+    .slider-header {
+        font-size: 34px;
+    }
+
+    .slider-text {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    .service {
+        padding-bottom: 15px;
+    }
+
+    .service-block {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+
+    .portfolio {
+        padding-top: 10px;
+    }
+
+    .portfolio-header {
+        margin-bottom: 10px;
+    }
+
+    .portfolio-desc {
+        margin-bottom: 23px;
+    }
+
+    .button > .button-text{
+        margin-top: 5px;
+    }
+
+    .tab-content{
+        width: 150px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-header {
+        margin-bottom: 10px;
+    }
+
+    .footer-desc {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .vcard {
+        text-align: center;
+    }
+
+    .vcard .adr {
+        display: block;
+        margin-right: 0;
+    }
+
+    .phone {
+        margin-top: 10px;
+        display: block;
+        margin-right: 0;
+    }
+
+    .soc-buttons {
+        margin-top: 10px;
+    }
+
+    .copyright-desc {
+        padding-top: 10px;
+        padding-bottom: 10px;;
+    }
+
+}
