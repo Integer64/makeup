@@ -407,6 +407,11 @@ footer {
 
 .vcard .adr {
     margin-right: 60px;
+    color: #bebebe;
+}
+
+.vcard .adr:link {
+    text-decoration: none;
 }
 
 .street-address:before {
