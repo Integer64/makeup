@@ -289,7 +289,7 @@ header {
 
 .button > .button-text{
     display: inline-block;
-    padding: 13px 20px;
+    padding: 12px 20px;
     color: #fff;
     background-color: #ff6760;
     text-align: center;
@@ -313,7 +313,7 @@ header {
 
 .tabs-content{
     padding: 25px 0;
-    line-height: 0px;
+    line-height: 0;
 }
 
 
@@ -397,15 +397,15 @@ footer {
     color: #bebebe;
 }
 
-.contacts {
+.vcard {
     color: #bebebe;
 }
 
-.contacts .address {
+.vcard .adr {
     margin-right: 60px;
 }
 
-.address:before {
+.street-address:before {
     display: inline-block;
     content: "";
     width: 10px;
@@ -413,6 +413,11 @@ footer {
     text-decoration: none;
     background: url("../img/sprite-loc-phone.png") no-repeat -3px 1px;
     margin-right: 2px;
+}
+
+.phone:link {
+    text-decoration: none;
+    color: #bebebe;
 }
 
 .phone:before {
