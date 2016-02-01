@@ -401,6 +401,10 @@ footer {
     color: #bebebe;
 }
 
+.fn {
+    display: none;
+}
+
 .vcard .adr {
     margin-right: 60px;
 }
