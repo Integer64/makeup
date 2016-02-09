@@ -20,7 +20,7 @@
     }
 
     .menu > .item-menu {
-        padding-top: 20px;
+        padding: 20px 10px 0;
     }
 
     .slider {
@@ -32,6 +32,7 @@
     }
 
     .slider-text {
+        padding: 5px;
         font-size: 20px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -64,7 +65,8 @@
         margin-top: 5px;
     }
 
-    .tab-content{
+    .tab-content {
+        filter: none;
         width: 150px;
     }
 
@@ -82,11 +84,11 @@
         margin-bottom: 5px;
     }
 
-    .vcard {
+    footer .vcard {
         text-align: center;
     }
 
-    .vcard .adr {
+    footer .vcard .adr {
         display: block;
         margin-right: 0;
     }

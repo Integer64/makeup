@@ -74,41 +74,13 @@ header {
     position: relative;
 }
 
-.logo:link {
-    text-decoration: none;
-}
-
-.logo {
-    color: #d9d9d9;
-    display: inline-block;
-
-}
-
-.logo .logo-icon {
-    display: inline-block;
-    background: url("../img/logo-W.png") no-repeat top center;
-    width: 39px;
-    height: 33px;
-    text-decoration: none;
-}
-
-.logo .logo-text {
-    font-family: "ReklameScript-Regular" ,sans-serif;
-    font-size: 28px;
-    position: relative;
-    top:-10px;
-    padding-left: 2px;
-}
-
 .menu {
-    display: inline-block;
     float: right;
     list-style: none;
     margin-top: 4px;
 }
 
 .menu > .item-menu {
-    font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 13px;
     display: inline-block;
@@ -128,7 +100,6 @@ header {
 .slider {
     background-color: #2a2a2a;
     padding: 45px 0 60px;
-    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #d9d9d9;
 }
@@ -139,8 +110,7 @@ header {
     font-weight: 100;
 }
 
-.slider-header > span {
-    font-family: "Lato", sans-serif;
+.slider-header > strong {
     font-weight: 900;
 }
 
@@ -148,19 +118,14 @@ header {
     margin-top: 20px;
     margin-bottom: 40px;
     font-size: 40px;
+    max-width: 1050px;
 }
 
-.slider-text > span {
-    font-family: "Lato", sans-serif;
+.slider-text > em {
     font-weight: 300;
     font-style: italic;
 }
 
-.amp {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
 
 .buttons {
     cursor: pointer;
@@ -168,7 +133,6 @@ header {
     display: inline-block;
     line-height: 14px;
     font-size: 14px;
-    font-family: "Lato", sans-serif;
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
@@ -213,29 +177,36 @@ header {
     background: url("../img/sprite-icons.png") no-repeat;
 }
 
-.service-block-icon.icon-android {
+.service-block-header.icon-android:before {
     width: 50px;
     background-position: 0 0;
 }
 
-.service-block-icon.icon-mac {
+.service-block-header.icon-mac:before {
     background-position: -50px 0;
 }
 
-.service-block-icon.icon-camera {
+.service-block-header.icon-camera:before {
     background-position: -113px 0;
 }
 
-.service-block-icon.icon-time {
+.service-block-header.icon-time:before {
     background-position: -178px;
 }
 
+.service-block-header:before {
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 65px;
+    height: 70px;
+    background: url("../img/sprite-icons.png") no-repeat;
+}
+
 .service-block-header {
-    font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 18px;
     margin-bottom: 8px;
-
 }
 
 .service-block-desc {
@@ -249,7 +220,6 @@ header {
 }
 
 .portfolio-header {
-    font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 30px;
     color: #616161;
@@ -257,7 +227,6 @@ header {
 }
 
 .portfolio-desc {
-    font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 20px;
     margin-top: 10px;
@@ -296,7 +265,6 @@ header {
     cursor: pointer;
     line-height: 12px;
     border-radius: 5px;
-    font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 12px;
     text-transform: uppercase;
@@ -312,7 +280,7 @@ header {
 }
 
 .tabs-content{
-    padding: 25px 0;
+    padding: 25px 0 73px 0;
     line-height: 0;
 }
 
@@ -393,33 +361,31 @@ footer {
 
 .footer-header {
     margin-top: 0;
-    font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 30px;
     color: #e0e0e0;
 }
 
 .footer-desc {
-    font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #bebebe;
 }
 
-.vcard {
+footer .vcard {
     color: #bebebe;
 }
 
-.fn {
+footer .fn {
     display: none;
 }
 
-.vcard .adr {
+footer .vcard .adr {
     margin-right: 60px;
     color: #bebebe;
 }
 
-.vcard .adr:link {
+footer .vcard .adr:link {
     text-decoration: none;
 }
 
