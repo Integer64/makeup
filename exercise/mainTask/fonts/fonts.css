@@ -23,10 +23,3 @@
     font-weight: 900;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'ReklameScript-Regular';
-    src: local('ReklameScript Regular'), local('ReklameScript-Regular'), url('ReklameScript-Regular_DEMO.otf');
-    font-weight: 900;
-    font-style: normal;
-}
